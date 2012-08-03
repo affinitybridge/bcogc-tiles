@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[
-  <!ENTITY postgis_settings SYSTEM "postgis.conf">
+  <!ENTITY % config SYSTEM "bcogc.conf">
+  %config;
 
   <!ENTITY roads_styles SYSTEM "bcogc-roads.styles">
   <!ENTITY petroleumaccesspermanentroads SYSTEM "layers/petroleumaccesspermanentroads.layer">

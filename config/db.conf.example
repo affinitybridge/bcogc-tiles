@@ -1,0 +1,4 @@
+<Parameter name="dbname"><![CDATA[DB_NAME]]></Parameter>
+<Parameter name="host"><![CDATA[HOST]]></Parameter>
+<Parameter name="port"><![CDATA[5432]]></Parameter>
+<Parameter name="type"><![CDATA[postgis]]></Parameter>

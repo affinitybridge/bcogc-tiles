@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[
-  <!ENTITY postgis_settings SYSTEM "postgis.conf">
+  <!ENTITY % config SYSTEM "bcogc.conf">
+  %config;
+
   <!ENTITY styles SYSTEM "bcogc-survey.styles">
   <!ENTITY seismiclines SYSTEM "layers/seismiclines.layer">
 ]>
