@@ -1,0 +1,46 @@
+<!-- Stream survey -->
+<Style name="streamsurvey" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MarkersSymbolizer fill="#0a0aff" height="8" width="8" stroke-width="0.5"/>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <MarkersSymbolizer fill="#0a0aff" stroke-width="0.5" height="8" width="8"/>
+  </Rule>
+</Style>
+
+<!-- Water act section 9 -->
+<Style name="wateractsection9" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MarkersSymbolizer fill="#8080ff" height="8" width="8" stroke-width="0.5"/>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <MarkersSymbolizer fill="#8080ff" stroke-width="0.5" height="8" width="8"/>
+  </Rule>
+</Style>
+
+<!-- Water act section 8 -->
+<Style name="wateractsection8" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MarkersSymbolizer fill="#8080ff" height="8" width="8" stroke-width="0.5"/>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <MarkersSymbolizer fill="#8080ff" stroke-width="0.5" height="8" width="8"/>
+  </Rule>
+</Style>
+
+<!-- Watercourse crossing -->
+<Style name="watercoursecrossing" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MarkersSymbolizer fill="#ccccff" height="6" width="6" stroke-width="0.5"/>
+  </Rule>
+</Style>

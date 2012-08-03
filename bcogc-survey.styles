@@ -1,0 +1,12 @@
+<!-- Seismic lines -->
+<Style name="seismiclines" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="1" stroke="#ddbbd7"/>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke="#ddbbd7" stroke-width="0.5"/>
+  </Rule>
+</Style>

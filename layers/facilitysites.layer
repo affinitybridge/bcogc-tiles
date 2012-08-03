@@ -1,0 +1,8 @@
+<Layer name="facilitysites" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <StyleName>facilitysites</StyleName>
+  <Datasource>
+    &postgis_settings;
+    <Parameter name="table"><![CDATA[(SELECT * FROM facilitysites) as geodata]]></Parameter>
+    <Parameter name="extent"><![CDATA[-125.516753173788 57.7730866601414,-119.999997090826 60.000121499178]]></Parameter>
+  </Datasource>
+</Layer>

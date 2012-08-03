@@ -1,0 +1,23 @@
+<!-- Ancillary & other -->
+<Style name="ancillaryother" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#3c1930" stroke-width="1"/>
+    <PolygonSymbolizer fill="#a94587" fill-opacity="1"/>
+  </Rule>
+</Style>
+
+<!-- Facility sites -->
+<Style name="facilitysites" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-width="1"/>
+    <PolygonSymbolizer fill="#3c1930" fill-opacity="1"/>
+  </Rule>
+</Style>
+
+<!-- Well sites -->
+<Style name="wellsites" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#a94587" stroke-width="1"/>
+    <PolygonSymbolizer fill="#ff0000" fill-opacity="1"/>
+  </Rule>
+</Style>

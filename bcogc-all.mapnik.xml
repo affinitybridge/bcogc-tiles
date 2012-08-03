@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[
+  <!ENTITY postgis_settings SYSTEM "postgis.conf">
+
+  <!ENTITY roads_styles SYSTEM "bcogc-roads.styles">
+  <!ENTITY petroleumaccesspermanentroads SYSTEM "layers/petroleumaccesspermanentroads.layer">
+  <!ENTITY petroleumdevelopmentroads SYSTEM "layers/petroleumdevelopmentroads.layer">
+  <!ENTITY pipelinerightofway SYSTEM "layers/pipelinerightofway.layer">
+
+  <!ENTITY sites_styles SYSTEM "bcogc-sites.styles">
+  <!ENTITY ancillaryother SYSTEM "layers/ancillaryother.layer">
+  <!ENTITY facilitysites SYSTEM "layers/facilitysites.layer">
+  <!ENTITY wellsites SYSTEM "layers/wellsites.layer">
+
+  <!ENTITY water_styles SYSTEM "bcogc-water.styles">
+  <!ENTITY streamsurvey SYSTEM "layers/streamsurvey.layer">
+  <!ENTITY wateractsection9 SYSTEM "layers/wateractsection9.layer">
+  <!ENTITY wateractsection8 SYSTEM "layers/wateractsection8.layer">
+  <!ENTITY watercoursecrossing SYSTEM "layers/watercoursecrossing.layer">
+
+  <!ENTITY survey_styles SYSTEM "bcogc-survey.styles">
+  <!ENTITY seismiclines SYSTEM "layers/seismiclines.layer">
+]>
+<Map buffer-size="128" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+  <!-- Roads -->
+  &roads_styles;
+  &petroleumdevelopmentroads;
+  &petroleumaccesspermanentroads;
+  &pipelinerightofway;
+
+  <!-- Sites -->
+  &sites_styles;
+  &ancillaryother;
+  &facilitysites;
+  &wellsites;
+
+  <!-- Water -->
+  &water_styles;
+  &streamsurvey;
+  &wateractsection9;
+  &wateractsection8;
+  &watercoursecrossing;
+
+  <!-- Survey -->
+  &survey_styles;
+  &seismiclines;
+
+</Map>

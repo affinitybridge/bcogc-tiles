@@ -1,0 +1,21 @@
+<!-- Petroleum development roads -->
+<Style name="petroleumdevelopmentroads" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="2" stroke="#bf629f"/>
+  </Rule>
+</Style>
+
+<!-- Petroleum access permanent roads -->
+<Style name="petroleumaccesspermanentroads" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="2" stroke="#a94587"/>
+  </Rule>
+</Style>
+
+<!-- Pipeline right of way -->
+<Style name="pipelinerightofway" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#61274d" stroke-width="1"/>
+    <PolygonSymbolizer fill="#973e79"/>
+  </Rule>
+</Style>
